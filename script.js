@@ -26,7 +26,7 @@ function updateMessage() {
 updateMessage();
 
 // Error 7:
-document.getElementById('testButton').addEventListener('click', testFunction());
+document.getElementById('actionButton').addEventListener('click', testFunction());
 
 function testFunction() {
   console.log('Test function executed');
