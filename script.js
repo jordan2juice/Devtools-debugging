@@ -75,7 +75,7 @@ if (five === 5) {
     console.log('Five is equal to 5'); // This one should be logged
 } else {
     console.log('Five is not equal to 5'); 
-
+}
 // Error 18:
 Array.prototype.push = function() {
     console.log('Array push method is overwritten');
