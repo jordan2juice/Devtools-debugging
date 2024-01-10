@@ -26,7 +26,7 @@ function updateMessage() {
 updateMessage();
 
 // Error 7:
-document.getElementById('actionButton').addEventListener('click', testFunction());
+document.getElementById('actionButton').addEventListener('click', testFunction);
 
 function testFunction() {
   console.log('Test function executed');
@@ -39,11 +39,11 @@ console.log('Sum is: ' + (number1 - number2));
 
 // Error 9: 
 let nullVar = null;
-console.log(nullVar.length);
+console.log(nullVar);
 
 // Error 10:
 let caseSensitiveVar = 'Case matters';
-console.log(CaseSensitiveVar);
+console.log(caseSensitiveVar);
 
 // Error 11:
 let importantData =
@@ -51,14 +51,14 @@ let importantData =
 console.log('importantData');
 
 // Error 12: 
-tryToCallFunction();
+// tryToCallFunction();
 
 // Error 13:
 let user = { name: 'Alice' };
 console.log(user.name)
 
 // Error 14: 
-let someNumber = 123;
+let someNumber = '123';
 console.log(someNumber.toUpperCase()); 
 
 // Error 15: 
@@ -66,7 +66,7 @@ let greeting = "Hello, world!";
 
 // Error 16: 
 for (let i = 0; i < 5; i++); {
-    console.log(i);
+    // console.log(i);
 }
 
 // Error 17:
@@ -81,12 +81,12 @@ Array.prototype.push = function() {
     console.log('Array push method is overwritten');
 };
 let numbers = [];
-numbers.push(1);
+push(1);
 console.log(numbers);
 
 // Error 19:
-console.log(x);
 x = 5;
+console.log(x);
 
 // Error 20:
 let myString = 'Hello';
