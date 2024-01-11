@@ -77,18 +77,18 @@ if (+five === 5) {
     console.log('Five is not equal to 5'); 
 }
 // Error 18:
-Array.prototype.push = function() {
-    console.log('Array push method is overwritten');
-};
+// Array.prototype.push = function() {
+//     // console.log('Array push method is overwritten');
+// };
 let numbers = [];
 numbers.push [1];
 console.log(numbers);
 
 // Error 19:
-x = 5;
+let x = 5;
 console.log(x);
 
 // Error 20:
 let myString = 'Hello';
-myString.property = 'World';
+myString = 'World';
 console.log(myString); 
