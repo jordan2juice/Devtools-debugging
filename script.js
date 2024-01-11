@@ -35,7 +35,7 @@ function testFunction() {
 // Error 8:
 let number1 = 10;
 let number2 = 5;
-console.log('Sum is: ' + (number1 - number2));
+console.log('Sum is: ' + (number1 + number2));
 
 // Error 9: 
 let nullVar = null;
@@ -71,7 +71,7 @@ for (let i = 0; i < 5; i++); {
 
 // Error 17:
 let five = '5';
-if (five === 5) {
+if (+five === 5) {
     console.log('Five is equal to 5'); // This one should be logged
 } else {
     console.log('Five is not equal to 5'); 
@@ -91,4 +91,4 @@ console.log(x);
 // Error 20:
 let myString = 'Hello';
 myString.property = 'World';
-console.log(myString.property); 
+console.log(myString); 
