@@ -53,3 +53,7 @@ Can't locate the problem.
 
 - Uses Jquery in javascript.
 - Solution: Change to javascript or remove jquery.
+
+## Diagnosis:
+
+The problems are related to how the HTML and JavaScript interacts. There are several issues that need to be addressed. By using the DevTools helps me describe and possible pin point the problems. Console locates all the javascript errors and Lightroom shows what other issues with the website like performance and SEO.
